@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Web-Site em html, css e javascript</title>
+</head>
+<body>
+
+     <!--Header-->
+    <header style="background-image: url('/img/background-home.jpg')">
+
+        <div class="container"> 
+        
+            <nav>
+                <a href="index.html"> 
+                    <img src="/img/logo.png" alt="logo">
+                </a>
+            <ul class='ul'>
+                <li><a href="index.html">Home</a>
+                <li><a href="sobre.html">Sobre</a>
+                <li><a href="serviços.html">Serviços</a>
+                <li><a class="btn" href="contato.html">Contato</a>
+                    <div class="close-icon" onclick="closeMenu()">
+                 <i class="fa fa-times-circle"></i>
+                    </div>
+            </ul>
+            <div class="menu-icon" onclick="openMenu()">
+                <i class="fa fa-bars"></i>
+            </div>
+            </nav>
+
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Whitepace</h1>
+                    <p>
+                        Construa sua marca, conquiste o mundo sem habilidades de código ou design necessárias.</p>
+                        <br>
+                    <a href="contato.html" class="btn">Entrar em Contato</a>
+                </div>
+            </section>
+
+        </div>
+        <!--End Container-->
+    </header>
+     <!--End Header-->
+
+     <!--faça mais-->
+     <section class="faca-mais">
+        <!--container-->
+        <div class="container">
+            <div class="faca-mais-text">
+                <h3>Faça mais com a Whitepace   </h3>
+                <p>
+
+
+                    
+                    Criação de web-sites, loja virtual, blogs para pequenas, médias e grandes empresas. Ter um site online nunca foi tão fácil!
+
+
+
+
+                </p>
+                <br>
+                <a href="contato.html" class="btn animate-btn">Entrar Em Contato</a>
+            </div>
+            <div class="faca-mais-img">
+                <img src="/img/img-1.png" alt="Imagem ilustrativa">
+            </div>
+        </div>
+        <!-- end container-->
+     </section>
+     <!--end faça mais-->
+
+          <!--faça mais 2-->
+          <section class="faca-mais">
+            <!--container-->
+            <div class="container">
+                <div class="faca-mais-img">
+                    <img src="/img/img-2.png" alt="Imagem ilustrativa">
+                </div>
+                <div class="faca-mais-text">
+                    <h3>Ter um website nunca foi tão fácil</h3>
+                    <p>
+                        Agora com a nossa empresa ter um website algo simplesmente fácil, basta entrar em contato e nós vamos desenvolver o seu website em tempo recorde para você começar a conquistar o mundo.
+                    </p>
+                    <br>
+                    <a href="contato.html" class="btn animate-btn">Entrar Em Contato</a>
+                </div>
+                
+            </div>
+            <!-- end container-->
+         </section>
+         <!--end faça mais 2-->
+        
+         <!--end depoimentos-->
+           <!---clientes-->
+         <section class="clientes">
+            <div class="container"></div>
+            <h3>Nossas Tecnologias</h3>
+            <p>Prestamos serviços á todo tipo de empresa ou projeto, olhe alguns de nossas tecnologias:</p>
+            <div>
+                <img src="/img/apple.png" alt="">
+                <img src="/img/microsoft.png" alt="Outros">
+                <img src="/img/google.png" alt="Outros">
+                <img src="/img/slack.png" alt="Outros">
+            </div>
+             <!--end clientes-->
+        </section>
+
+        
+     <!--faça mais-->
+     <section class="faca-mais">
+        <!--container-->
+        <div class="container">
+            <div class="faca-mais-text">
+                <h3>Tenha um Web-Site seguro!</h3>
+                <p>
+                    Nós trabalhamos com tecnologias atualizadas, rápidas e as mais seguras desse mercado. Nós fazemos backup e manutenção do seu site em tempo recorde.
+                </p>
+                <a href="contato.html" class="btn animate-btn">Entrar Em Contato</a>
+            </div>
+            <div class="faca-mais-img">
+                <img src="/img/security.png" alt="Imagem ilustrativa">
+            </div>
+        </div>
+        <!-- end container-->
+     </section>
+     <!--end faça mais-->
+       
+     
+     
+     <!--Footer-->
+
+      <footer class="footer">
+        <div class="container">
+        <div class="links">
+         <a href="#"> <i class="fa fa-facebook"></i> </a>
+         <a href="#"> <i class="fa fa-instagram"></i> </a>
+         <a href="#"> <i class="fa fa-github"></i> </a>
+         <a href="#"> <i class="fa fa-linkedin"></i> </a>
+        </div>
+        <p>Desenvolvido Por *PDR</p>
+    </div>
+    </footer>
+    <!--end footer-->
+           
+    <script src="/js/main.js"></script>
+</body>
+</html>
+
+<!-- end html-->
+
+<!-- contato.html-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Contato | Website HTML E CSS e JavaScript</title>
+</head>
+<body>
+
+     <!--Header-->
+    <header style="background-image: url('/img/background-contacto.jpg')">
+
+        <div class="container"> 
+        
+            <nav>
+                <a href="index.html"> 
+                    <img src="/img/logo.png" alt="logo">
+                </a>
+            <ul class='ul'>
+                <li><a href="index.html">Home</a>
+                <li><a href="sobre.html">Sobre</a>
+                <li><a href="serviços.html">Serviços</a>
+                <li><a class="btn" href="contato.html">Contato</a>
+                    <div class="close-icon" onclick="closeMenu()">
+                 <i class="fa fa-times-circle"></i>
+                    </div>
+            </ul>
+            <div class="menu-icon" onclick="openMenu()">
+                <i class="fa fa-bars"></i>
+            </div>
+            </nav>
+
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Nos Contate</h1>
+                    <p>
+                        Entre em contato com o nosso time e eles irão retornar em tempo recorde, para tirar seu negócio do papel
+                    </p>
+                </div>
+            </section>
+
+        </div>
+        <!--End Container-->
+    </header>
+     <!--End Header-->
+           <section class="contato">
+            <div class="container">
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3699.5538980050537!2d-47.42161332548437!3d-21.990078005751737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c800e7e6246e39%3A0x1f5f3c0ca07c6b36!2sR.%20Arist%C3%B3teles%20de%20Oliveira%2C%201246%20-%20Vila%20Santa%20Terezinha%2C%20Pirassununga%20-%20SP%2C%2013636-120!5e0!3m2!1spt-BR!2sbr!4v1721421704119!5m2!1spt-BR!2sbr" width="100%" height="450px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contato-info">
+                        <div class="left-side">
+                            <div>
+                                <i class="fa fa-map-marker"></i>
+                                <p>R. Aristóteles de Oliveira, 1246 - Vila Santa Terezinha, Pirassununga - SP, 13636-120</p>
+                        <div class="right-side"></div>
+                </div>
+            </div>
+           </section>
+     <!--Footer-->
+
+      <footer class="footer">
+        <div class="container">
+        <div class="links">
+         <a href="#"> <i class="fa fa-facebook"></i> </a>
+         <a href="#"> <i class="fa fa-instagram"></i> </a>
+         <a href="#"> <i class="fa fa-github"></i> </a>
+         <a href="#"> <i class="fa fa-linkedin"></i> </a>
+        </div>
+        <p>Desenvolvido Por *PDR</p>
+    </div>
+    </footer>
+    <!--end footer-->
+           
+    <script src="/js/main.js"></script>
+</body>
+</html>
+
+<!--end contato-->
+
+<!--serviços-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Serviços | Website HTML E CSS e JavaScript</title>
+</head>
+<body>
+
+     <!--Header-->
+    <header style="background-image: url('/img/background-servicos.jpg')">
+
+        <div class="container"> 
+        
+            <nav>
+                <a href="index.html"> 
+                    <img src="/img/logo.png" alt="logo">
+                </a>
+            <ul class='ul'>
+                <li><a href="index.html">Home</a>
+                <li><a href="sobre.html">Sobre</a>
+                <li><a href="serviços.html">Serviços</a>
+                <li><a class="btn" href="contato.html">Contato</a>
+                    <div class="close-icon" onclick="closeMenu()">
+                 <i class="fa fa-times-circle"></i>
+                    </div>
+            </ul>
+            <div class="menu-icon" onclick="openMenu()">
+                <i class="fa fa-bars"></i>
+            </div>
+            </nav>
+
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Serviços</h1>
+                </div>
+            </section>
+
+        </div>
+        <!--End Container-->
+    </header>
+     <!--End Header-->
+          <section class="servicos">
+            <div class="container">
+                <h3>Nossos Serviços</h3>
+                <p>Conheça os melhores serviços que temos para si!</p>
+                <!--Rows Cards-->
+                <div class="rows-cards">
+                    <!--row card item 1-->
+                    <div class="row-card-item">
+                     <img src="/img/cloud.png" alt="">
+                     <p class="nome-servico"><strong>Serviço Em Nuvem</strong></p>
+                     <p class="descricao-servico">
+                          Lorem ipsum dolor sit, amet consectetur
+                          adipisicing elit.Debitis hic magnam
+                          officiis cupiditate rem, Expedita.
+                          adipisicing elit.Debitis hic magnam
+                          officiis cupiditate rem, Expedita.
+                     </p>
+                    </div>
+                    <!--end row card item 1-->
+                     <!--row card item 2-->
+                     <div class="row-card-item">
+                        <img src="/img/digital-marketing.png" alt="">
+                        <p class="nome-servico"><strong>Marketing Digital</strong></p>
+                        <p class="descricao-servico">
+                             Lorem ipsum dolor sit, amet consectetur
+                             adipisicing elit.Debitis hic magnam
+                             officiis cupiditate rem, Expedita.
+                             adipisicing elit.Debitis hic magnam
+                             officiis cupiditate rem, Expedita.
+                        </p>
+                       </div>
+                       <!--end row card item 2-->
+                        <!--row card item 3-->
+                    <div class="row-card-item">
+                        <img src="/img/seo.png" alt="">
+                        <p class="nome-servico"><strong>Seo</strong></p>
+                        <p class="descricao-servico">
+                             Lorem ipsum dolor sit, amet consectetur
+                             adipisicing elit.Debitis hic magnam
+                             officiis cupiditate rem, Expedita.
+                             adipisicing elit.Debitis hic magnam
+                             officiis cupiditate rem, Expedita.
+                        </p>
+                       </div>
+                       <!--end row card item 3-->
+                        <!--row card item 4-->
+                    <div class="row-card-item">
+                        <img src="/img/virtual_store.png" alt="">
+                        <p class="nome-servico"><strong>Criação de lojas virtuais</strong></p>
+                        <p class="descricao-servico">
+                             Lorem ipsum dolor sit, amet consectetur
+                             adipisicing elit.Debitis hic magnam
+                             officiis cupiditate rem, Expedita.
+                             adipisicing elit.Debitis hic magnam
+                             officiis cupiditate rem, Expedita.
+                        </p>
+                       </div>
+                       <!--end row card item 4-->
+                        <!--row card item 5-->
+                    <div class="row-card-item">
+                        <img src="/img/layer.png" alt="">
+                        <p class="nome-servico"><strong>Identidade Visual & Design</strong></p>
+                        <p class="descricao-servico">
+                             Lorem ipsum dolor sit, amet consectetur
+                             adipisicing elit.Debitis hic magnam
+                             officiis cupiditate rem, Expedita.
+                             adipisicing elit.Debitis hic magnam
+                             officiis cupiditate rem, Expedita.
+                        </p>
+                       </div>
+                       <!--end row card item 5-->
+                        <!--row card item 6-->
+                    <div class="row-card-item">
+                        <img src="/img/manager.png" alt="">
+                        <p class="nome-servico"><strong>Criação De Conteúdo</strong></p>
+                        <p class="descricao-servico">
+                             Lorem ipsum dolor sit, amet consectetur
+                             adipisicing elit.Debitis hic magnam
+                             officiis cupiditate rem, Expedita.
+                             adipisicing elit.Debitis hic magnam
+                             officiis cupiditate rem, Expedita.
+                        </p>
+                       </div>
+                       <!--end row card item 6-->
+                </div>
+                <!--End Rows Cards-->
+            </div>
+          </section>
+          <!--end section servicos 1-->
+          <section class="dados">
+            <div class="container">
+                <!--dados itens 1-->
+                <div class="div dados-item">
+                    <img src="/img/cloud.png" alt="">
+                    <p>
+                        <strong>+360</strong> <br>
+                            Projetos Concluídos
+                    </p>
+
+                </div>
+                <!--end dados itens 1-->
+                 <!--dados itens 2-->
+                 <div class="div dados-item">
+                    <img src="/img/manager.png" alt="">
+                     <p>
+                        <strong>+890</strong> <br>
+                            Clientes Satisfeitos
+                    </p>
+                </div>
+                <!--end dados itens 2-->
+                 <!--end dados itens 1-->
+                 <!--dados itens 2-->
+                 <div class="div dados-item">
+                    <img src="/img/manager.png" alt="">
+                     <p>
+                        <strong>+4303</strong> <br>
+                            Jornada De Trabalho   
+                    </p>
+                </div>
+                <!--end dados itens 2-->
+                 <!--end dados itens 1-->
+                 <!--dados itens 2-->
+                 <div class="div dados-item">
+                    <img src="/img/trophy.png" alt="">
+                     <p>
+                        <strong>+254</strong> <br>
+                            Publicidade Paga
+                    </p>
+                </div>
+                <!--end dados itens 2-->
+            </div>
+          </section>
+     <!--Footer-->
+
+      <footer class="footer">
+        <div class="container">
+        <div class="links">
+         <a href="#"> <i class="fa fa-facebook"></i> </a>
+         <a href="#"> <i class="fa fa-instagram"></i> </a>
+         <a href="#"> <i class="fa fa-github"></i> </a>
+         <a href="#"> <i class="fa fa-linkedin"></i> </a>
+        </div>
+        <p>Desenvolvido Por *PDR</p>
+    </div>
+    </footer>
+    <!--end footer-->
+           
+    <script src="/js/main.js"></script>
+</body>
+</html>
+
+<!--end servicos-->
+
+<!-- css do site -->
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-color: #f1f6fc31;
+}
+
+section,
+footer {
+    padding:54px 0;
+}
+h3{
+    font-size: 50px;
+
+}
+
+p{
+    color: #dad6d6;
+}
+
+.container{  
+    max-width: 1400px;
+    margin: 0 auto;
+
+}
+
+.btn{
+    background-color: #4f9cf9;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 2;
+}
+
+.btn.animate-btn { 
+    animation:animate-outline 1s ease-out infinite; 
+}
+
+.btn:hover {
+
+    background-color: #005eeb9c;
+}
+
+@keyframes animate-outline {
+    from{
+    outline: 0px solid #4f9bf98a;
+
+    }
+    to{
+    outline: 10px solid #4f9bf98a;
+
+    }
+}
+
+header{
+     background-position: center;
+     background-size: cover;
+     background-attachment: fixed;
+}
+
+nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul a{
+    color: white;
+    margin: 0 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+}
+
+nav ul a:not(.btn):after{
+    content: "";
+    background-color: #4f9cf9;
+    height: 3px;
+    width: 0%;
+    display: block;
+    margin: 0 auto;
+    transition: 0.3s;
+}
+
+nav ul a:hover::after{
+    width: 100%;
+}
+/* menu mobile */
+nav .menu-icon{
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+    display: none;
+}
+nav .close-icon{
+    display: none;
+    font-size: 30px;
+    color: white;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.banner .banner-text{
+    margin: 150px;
+    text-align: center;
+    padding: 0 90px;
+}
+
+.banner .banner-text h1{
+    font-size: 96px;
+    color:white;
+}
+
+.banner .banner p{
+        font-size: 20px;
+        color: #e7f1fd ;
+        font-weight: lighter;
+        margin: 18px 0;
+}
+
+.faca-mais .container{
+  display: flex;
+  align-items: center;
+}
+
+.faca-mais .faca-mais-text{
+    width: 50%;
+    padding: 0 40px;
+}
+
+.faca-mais .faca-mais-text h3{
+    font-size: 56px;
+}
+
+.faca-mais .faca-mais-text p{
+    margin:5px 0 10px 0
+}
+
+.faca-mais .faca-mais-img{
+    width: 50%;
+}
+
+.faca-mais .faca-mais-img img{
+   width: 100%;
+}
+.depoimentos h3{
+    text-align: center;
+}
+.depoimentos p{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+}
+.depoimentos .card-item{
+    background-color: #d3e6fd;
+    margin: 15px;
+    border-radius: 14px;
+    text-align: center;
+    width: 350px;
+    transition: 0.10s;
+}
+.depoimentos .card-item img{
+    border-radius: 100%;
+    width: 80px;
+    display: block;
+    margin: 10px auto;
+}
+.depoimentos .card-item .nome-user{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+.depoimentos .card-item .depoimento-user{
+    font-size: 15px;
+    padding: 0 15px
+    
+}
+.depoimentos .card-item .estrelas{
+    margin: 15px 0;
+    border-top: 2px solid #71767a23;
+}
+.depoimentos .card-item .estrelas i{
+    color:#4f9cf9;
+    margin-top: 15px;
+    transition: 0.3s;
+    font-size: 20px;
+}
+.depoimentos .card-item:hover{
+    background-color: #4f9cf9;
+}
+.depoimentos .card-item:hover .nome-user,
+.depoimentos .card-item:hover .depoimento-user,
+.depoimentos .card-item:hover .estrelas i{
+  color: white
+}
+
+.clientes h3,
+.clientes p{
+    text-align: center;
+}
+.clientes .container div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Footer */
+.footer{
+    background-color: #4f9cf9;
+    text-align: center;
+}
+.footer i{
+    color: #4f9cf9;
+    font-size: 19px;
+    background-color: white;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 10px ;
+}
+.footer p{
+    margin-top: 10px;
+    color: white;
+}
+/* Página Sobre */
+.sobre .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sobre .sobre-text{
+    width: 50%;
+    padding-right: 40px;
+}
+.sobre .sobre-text p{
+    margin: 18px 0;
+    color: #000000a6;
+    
+}
+.sobre .sobre-img{
+    width: 50%;
+
+}
+.sobre .sobre-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+/* End Página Sobre */
+
+/* Página Servicos */
+
+.servicos h3{
+    text-align: center;
+}
+.servicos .container > p{
+    text-align: center;
+}
+.servicos .rows-cards{  
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.servicos .row-card-item{
+   background: #d3e6fd;
+   width: 350px;
+   padding: 20px;
+   border-radius: 14px;
+   margin: 20px;
+   transition: 0.3s;
+}
+.servicos .row-card-item:hover{
+    background-color: #4f9cf9;
+}
+.servicos .row-card-item:hover p{
+    color: white;
+}
+.servicos .row-card-item img{
+    background-color: #4f9cf9;
+    border-radius: 14px;
+    width: 70px;
+    padding: 9px;
+}
+.servicos .row-card-item p.nome-servico{
+    margin: 5px;
+    transition: 0.3s;
+}
+.servicos .row-card-item p.descricao-servico{
+    transition: 0.3s;
+}
+/*dados item*/
+.dados{
+    background: #d3e6fd;
+}
+.dados .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.dados .dados-item{
+    text-align: center;
+    margin: 15px;
+    color: #000000be;
+}
+.dados .dados-item img{
+    background-color: #4f9cf9;
+    border-radius: 14px;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 80px;
+}
+.dados .dados-item p{
+    font-size: 18px;
+}
+.dados .dados-item p strong{
+    font-size: 28px;
+}
+/* End Página Servicos */
+@media(max-width: 830px){
+    /* Menu Mobile */
+    .ul{
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #184b88;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        clip-path: circle(0% at 100% 0);
+        transition: 0.7s;
+    }
+    .ul.open{
+        clip-path: circle(141.4% at 100% 0);
+    }
+    .ul a{
+        margin: 10px 0;
+        font-size: 16px;
+    }
+    nav .menu-icon{
+        display: block;
+    }
+    nav .close-icon{
+   display: block;
+   position: absolute;
+   top: 46px;
+   right: 28px;
+   }
+}
